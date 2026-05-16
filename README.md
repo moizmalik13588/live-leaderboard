@@ -6,7 +6,7 @@ A real-time leaderboard system built with Node.js, Redis, and React. Users can e
 
 ## 📸 Preview
 
-![Leaderboard UI](./preview.png)
+![Leaderboard UI](./leaderboard-points.JPG)
 
 ---
 
