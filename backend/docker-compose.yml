@@ -1,0 +1,12 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: leaderboard-redis
+    ports:
+      - "6379:6379" # localhost:6379 pe accessible hoga
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data # Data save rahega container restart pe bhi
+
+volumes:
+  redis-data:
